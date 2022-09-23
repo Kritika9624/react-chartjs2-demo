@@ -3,12 +3,14 @@ import React from 'react'
 import './App.css';
 import AreaChart from './charts/AreaChart';
 import Doughnut from './charts/DoughnutChart';
+import HCLineChart from './charts/HCLineChart';
 
 function App() {
   return (
     <div className="App">
       <Doughnut/>
       <AreaChart/>
+      <HCLineChart/>
     </div>
   );
 }
